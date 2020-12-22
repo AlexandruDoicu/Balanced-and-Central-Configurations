@@ -1,0 +1,71 @@
+*** NUMBER OF MASSES AND MASSES ***
+N = 5
+M = 1.0000E-01
+
+*** SX and SY ***
+(SX,SY) = diagonal elements of the S matrix
+
+SX =    1.0000E+00
+SY =    1.0000E+00
+
+*** COORDINATES ***
+IS   = solution counter
+FCT  = objective function at the solution
+FCT0 = objective function at the rotated solution for testing purposes
+(X1,Y1) = X and Y coordinates of each point mass
+  
+IS        FCT             FCT0                 X1                          Y1...
+  1     6.4408E-34     9.0478E-26      1.1321381124518874E+00     -8.4750415593818373E-01     -4.5617443336449198E-01     -1.3386205161843840E+00     -1.4140694170721255E+00      2.0191178895749611E-02     -4.1776852884030680E-01      1.3510993510127887E+00      1.1558742668167443E+00      8.1483414220573736E-01
+  2     6.7165E-31     1.1221E-24      6.4560886576454812E-01      1.4433257402360169E+00      1.4433257402425157E+00     -6.4560886575897769E-01     -6.4560886576548493E-01     -1.4433257402485733E+00     -1.4433257402420678E+00      6.4560886577104826E-01      0.0000000000000000E+00      0.0000000000000000E+00
+  3     1.9313E-28     1.6674E-25      5.0584087359797847E-01     -3.9517322401189814E-01      1.3842389964467745E+00     -1.2643436210144781E+00     -5.1598098153672067E-01      1.8023445891296286E+00     -1.2454099202072764E+00     -7.7169658243286077E-01     -1.2868896830283696E-01      6.2886883832064400E-01
+  4     6.9193E-28     1.9641E-25     -1.0122668360572766E+00      1.3133165362499406E+00      1.1772673856508113E+00     -8.9038564365209416E-01     -8.5211925036683811E-01     -1.4224546583076068E+00     -3.7822040584481015E-01     -2.2140405961648083E-02      1.0653391066113371E+00      1.0216641716610928E+00
+  5     4.7952E-27     4.1284E-24     -8.4948632651260514E-01      4.3399087389689311E-01      0.0000000000000000E+00      0.0000000000000000E+00      8.4948632650605060E-01     -4.3399087389344010E-01     -1.8009622726774235E+00      9.2008684093020709E-01      1.8009622726712873E+00     -9.2008684092724025E-01
+
+*** SOLUTION TESTS ***
+IS   = solution counter
+FCT  = objective function at the solution
+FINERT  = residual of the normalization condition for the moment of inertia I=1
+FALBOUY = residual of the Albouy-Chenciner equations
+KRAWCZ  = logical flag indicating if there exists a unique stationary point in a 
+          small box around the solution
+EXISTSOL= logical flag indicating if global minima of F exist in a small box
+          around the solution 
+RMSQUAD = RMS of the relative quadratic approximation error
+ERRMAXQUAD = maximum quadratic approximation error
+
+IS        FCT            FINERT         FALBOUY   KRAWCZ      RMSQUAD        ERRMAXQUAD    EXISTSOL
+  1     6.4408E-34     2.9802E-26     1.7694E-25    T       1.1235E-04       3.8060E-04       T
+  2     6.7165E-31     9.9716E-27     9.3752E-23    T       1.1103E-04       2.7656E-04       T
+  3     1.9313E-28     2.8674E-26     1.0019E-24    T       1.7493E-04       4.6291E-04       T
+  4     6.9193E-28     1.2425E-27     4.0981E-25    T       1.1148E-04       2.8985E-04       T
+  5     4.7952E-27     1.5898E-25     2.8163E-22    T       2.3669E-04       4.9675E-04       T
+
+*** CENTERS OF MASS ***
+IS   = solution counter
+FCT  = objective function at the solution
+(XMC,YCM) = X and Y coordinates of the center of mass
+
+IS        FCT             XCM           YCM
+  1     6.4408E-34    -1.6585E-12    -1.6585E-12
+  2     6.7165E-31    -9.7811E-14    -9.7145E-14
+  3     1.9313E-28    -4.1620E-13    -1.7929E-12
+  4     6.9193E-28    -1.3553E-12    -2.0631E-12
+  5     4.7952E-27    -2.5381E-12     1.2840E-12
+
+*** DEGENERATE SOLUTIONS ***
+Number of degenerate solutions =   0
+
+*** MORSE_INDEX and ISOTROPY_INDEX ***
+IS    = solution counter
+MORSE = Morse index
+ISOTROPY = isotropy index
+
+  IS       MORSE   ISOTROPY
+   1         0         5
+   2         0         4
+   3         2         1
+   4         1         1
+   5         3         2
+
+*** Residual of Morse Equation ***
+RESMORES =  8.3267E-16

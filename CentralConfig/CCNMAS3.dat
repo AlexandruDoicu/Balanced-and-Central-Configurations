@@ -1,0 +1,59 @@
+*** NUMBER OF MASSES AND MASSES ***
+N = 3
+M = 1.0000E-01
+
+*** SX and SY ***
+(SX,SY) = diagonal elements of the S matrix
+ 
+SX =    1.0000E+00
+SY =    1.0000E+00
+
+*** COORDINATES ***
+IS   = solution counter
+FCT  = objective function at the solution
+FCT0 = objective function at the rotated solution for testing purposes
+(X1,Y1) = X and Y coordinates of each point mass
+  
+IS        FCT             FCT0                 X1                          Y1...
+  1     2.2617E-34     9.7321E-28     -6.3509254950672644E-01     -1.7117215856849053E+00     -1.1648481026557655E+00      1.4058670744671986E+00      1.7999406521594927E+00      3.0585451121470603E-01
+  2     1.2673E-33     2.7214E-27     -1.3801434205831458E+00      1.7593192258992130E+00      1.3801434205838337E+00     -1.7593192259000885E+00      0.0000000000000000E+00      0.0000000000000000E+00
+
+*** SOLUTION TESTS ***
+IS   = solution counter
+FCT  = objective function at the solution
+FINERT  = residual of the normalization condition for the moment of inertia I=1
+FALBOUY = residual of the Albouy-Chenciner equations
+KRAWCZ  = logical flag indicating if there exists a unique stationary point in a 
+          small box around the solution
+EXISTSOL= logical flag indicating if global minima of F exist in a small box
+          around the solution 
+RMSQUAD = RMS of the relative quadratic approximation error
+ERRMAXQUAD = maximum quadratic approximation error
+
+IS        FCT            FINERT         FALBOUY   KRAWCZ      RMSQUAD        ERRMAXQUAD    EXISTSOL
+  1     2.2617E-34     4.4232E-26     7.8433E-32    T       9.9269E-05       2.8154E-04       T
+  2     1.2673E-33     3.5597E-29     6.7179E-26    T       1.5762E-04       2.9801E-04       T
+
+*** CENTERS OF MASS ***
+IS   = solution counter
+FCT  = objective function at the solution
+(XMC,YCM) = X and Y coordinates of the center of mass
+
+IS        FCT             XCM           YCM
+  1     2.2617E-34    -9.9976E-13    -1.0003E-12
+  2     1.2673E-33     2.2926E-13    -2.9190E-13
+
+*** DEGENERATE SOLUTIONS ***
+Number of degenerate solutions =   0
+
+*** MORSE_INDEX and ISOTROPY_INDEX ***
+IS    = solution counter
+MORSE = Morse index
+ISOTROPY = isotropy index
+
+  IS       MORSE   ISOTROPY
+   1         0         3
+   2         1         2
+
+*** Residual of Morse Equation ***
+RESMORES =  1.6653E-16

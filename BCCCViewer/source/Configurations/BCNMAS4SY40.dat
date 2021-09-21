@@ -1,0 +1,61 @@
+*** NUMBER OF MASSES AND MASSES ***
+N = 4
+M = 1.0000E-01
+
+*** SX and SY ***
+(SX,SY) = diagonal elements of the S matrix
+
+SX =    1.0000E+00
+SY =    4.0000E-01
+
+*** COORDINATES ***
+IS   = solution counter
+FCT  = objective function at the solution
+(X1,Y1) = X and Y coordinates of each point mass
+
+IS        FCT                    X1                           Y1...
+  1     9.1838E-35      1.2103502493126173E+00      1.9156795565815288E+00      0.0000000000000000E+00     -6.9176192948318005E-01      0.0000000000000000E+00     -3.1395971836921559E+00     -1.2103502493152756E+00      1.9156795565819054E+00
+  2     9.2580E-35      1.2780393559914653E+00      0.0000000000000000E+00      0.0000000000000000E+00     -2.9011271105121339E+00      0.0000000000000000E+00      2.9011271105075447E+00     -1.2780393559943048E+00      0.0000000000000000E+00
+  3     1.1736E-34     -1.1477174328991078E+00      1.7195527719607411E+00      1.1477174328964930E+00     -1.7195527719596524E+00     -1.1477174328991897E+00     -1.7195527719634038E+00      1.1477174328964104E+00      1.7195527719569905E+00
+  4     1.2112E-33      8.5778572458793190E-01     -1.2101786854116878E+00      8.5778572459290914E-01      1.2101786854059828E+00     -8.5778572459270619E-01     -2.7122842407918553E+00     -8.5778572459121205E-01      2.7122842407843195E+00
+  5     1.9419E-33      0.0000000000000000E+00      2.4702653640819512E+00      0.0000000000000000E+00     -7.6462591621726095E-01      1.8362207534033743E+00     -8.5281972393398342E-01     -1.8362207534098196E+00     -8.5281972393468730E-01
+  6     2.6648E-31      0.0000000000000000E+00      3.3709840711010512E+00      0.0000000000000000E+00      1.0660517775119946E+00      0.0000000000000000E+00     -3.3709840711117254E+00      0.0000000000000000E+00     -1.0660517775240010E+00
+  7     2.5731E-30      2.1319975241637361E+00      0.0000000000000000E+00      6.7423034411973304E-01      0.0000000000000000E+00     -6.7423034413172889E-01      0.0000000000000000E+00     -2.1319975241744187E+00      0.0000000000000000E+00
+
+*** SOLUTION TESTS ***
+IS   = solution counter
+FCT  = objective function at the solution
+FINERT  = residual of the normalization condition for the moment of inertia I=1
+KRAWCZ  = logical flag indicating if there exists a unique stationary point in a 
+          small box around the solution
+EXISTSOL= logical flag indicating if global minima of F exist in a small box 
+          around the solution
+RMSQUAD = RMS of the relative quadratic approximation error
+ERRMAXQUAD = maximum quadratic approximation error
+
+IS        FCT            FINERT    KRAWCZ      RMSQUAD        ERRMAXQUAD    EXISTSOL
+  1     9.1838E-35     1.1364E-25    T       1.5257E-04       3.8686E-04       T
+  2     9.2580E-35     1.2079E-26    T       1.1223E-04       2.8402E-04       T
+  3     1.1736E-34     5.6956E-28    T       9.2158E-05       9.1695E-04       T
+  4     1.2112E-33     1.7680E-25    T       1.1866E-04       4.3685E-04       T
+  5     1.9419E-33     4.4318E-27    T       1.3625E-04       2.8313E-04       T
+  6     2.6648E-31     1.6697E-26    T       2.0347E-04       4.6139E-04       T
+  7     2.5731E-30     1.7732E-25    T       2.0465E-04       4.5724E-04       T
+
+*** CENTERS OF MASS ***
+IS   = solution counter
+FCT  = objective function at the solution
+(XMC,YCM) = X and Y coordinates of the center of mass
+
+IS        FCT             XCM           YCM
+  1     9.1838E-35    -6.6461E-13    -2.9755E-12
+  2     9.2580E-35    -7.0985E-13    -1.1473E-12
+  3     1.1736E-34    -1.3485E-12    -1.3312E-12
+  4     1.2112E-33    -7.6932E-13    -3.3101E-12
+  5     1.9419E-33    -1.6113E-12    -9.9518E-13
+  6     2.6648E-31     0.0000E+00    -5.6701E-12
+  7     2.5731E-30    -5.6695E-12     0.0000E+00
+
+*** DEGENERATE SOLUTIONS ***
+Number of degenerate solutions =   0
+

@@ -30,4 +30,5 @@ a balanced configuration with x masses and an SY-value of 0.yz. In the directory
 "CentralConfig", the file "CCNMASx.dat" corresponds to a central configuration 
 with x masses.
 
-The folder ""
+In order to view the configurations directly, there is software in the "BCCCView" 
+directory. Complete documentation for this software is available there. 

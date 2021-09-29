@@ -29,3 +29,5 @@ In the directory "BalancedConfig", the file "BCNMASxSYyz.dat" corresponds to a
 a balanced configuration with x masses and an SY-value of 0.yz. In the directory,
 "CentralConfig", the file "CCNMASx.dat" corresponds to a central configuration 
 with x masses.
+
+The folder ""
